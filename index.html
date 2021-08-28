@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function</title>
+</head>
+
+<body>
+    <h3>Map Method:</h3>
+    <div>
+        <p>
+            The map() method in JavaScript creates an array by calling a specific function on each element present in
+            the parent array. It is a non-mutating method. Generally map() method is used to iterate over an array and
+            calling function on every element of array.
+        </p>
+
+        <p>
+        <ul>
+            Parameters: This method accepts two parameters as mentioned above and described below:
+            <ul>
+
+                <li>
+                    function(currentValue, index, arr): It is required parameter and it runs on each element of array.
+                    It
+                    contains three parameters which are listed below:
+                    <ul>
+                        <li>
+                            currentValue: It is required parameter and it holds the value of current element.
+                        </li>
+                        <li>
+                            index: It is optional parameter and it holds the index of current element.
+                        </li>
+                        <li>
+                            arr: It is optional parameter and it holds the array.
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    thisValue: It is optional parameter and used to hold the value of passed to the function.
+                </li>
+            </ul>
+        </ul>
+        <ul>
+            Return Value: It returns a new array and elements of arrays are result of callback function.
+        </ul>
+
+        </p>
+
+        <h5>Syntax:</h5>
+        <p>array.map(function(currentValue, index, arr), thisValue)</p>
+    </div>
+
+
+    <script src="arrow.js"></script>
+</body>
+
+</html>
